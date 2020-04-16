@@ -74,6 +74,11 @@
         "serialize-to-js": "^3.0.0",
         "styled-components": "^4.2.0"
     },
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ]
+    },
     "jest": {
         "setupFiles": [
             "./src/setupTests.js"
